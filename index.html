@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>The Weather App</h1>
+    <div class="page-content page-container" id="page-content">
+      <div class="padding">
+            <div class ="input">
+                <input type="text" class ="inputValue" placeholder="Enter a city">
+                <br>
+                <input type="submit" value = "Submit" class="button">
+            </div>
+              <div class="row container d-flex justify-content-center">
+                <div class="col-lg-8 grid-margin stretch-card">
+                    <div class="card card-weather">
+                      <div class="card-body justify-content-center">
+                        <h1 class="city"></h1>
+                        <div class="weather-data d-flex">
+                          <div class="mr-auto">
+                            <h1 class="temperature">Please Enter a City Above</h1>
+                              <h3 class = "description"></h3>
+                              <h5 class = "max"></h5>
+                              <h5 class = "min"></h5>
+                              <h6 class = "humidity"></h6>
+                              <h6 class = "precipitation"></h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+
+<div class ="display">
+    <p class = "description">:</p>
+    <p class = "temperature"></p>
+    <p class = "max"></p>
+    <p class = "min"></p>
+    <p class = "humidity"> </p>
+
+</div>
+    
+</body>
+<footer>
+    <script src="main.js"></script>
+</footer>
+</html>
